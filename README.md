@@ -1,6 +1,4 @@
-# example-todomvc
-
-An example application based on [TodoMVC](https://github.com/tastejs/todomvc).
+# to-do-application
 
 To install dependencies, compile and run the Todo app:
 
