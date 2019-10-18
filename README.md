@@ -7,24 +7,6 @@ If you haven’t already, sign up for a free Percy account, name your organizati
 $ git clone https://github.com/serhatgunes/ToDoApplication.git
 $ cd ToDoApplication/
 ```
-add package.json file to your project and insert : 
-```json
-{
-    "name": "to-do-application",
-    "version": "1.0.0",
-    "description": "demo project.",
-    "scripts": {
-      "lite": "lite-server --port 10001",
-      "start": "npm run lite"
-    },
-    "author": "",
-    "license": "ISC",
-    "devDependencies": {
-      "lite-server": "^1.3.1"
-    }
-  }
-
-```
 
 To install dependencies, compile and run the Todo app:
 
