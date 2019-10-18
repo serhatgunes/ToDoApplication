@@ -73,6 +73,7 @@ $ npx percy exec -- node snapshots.js
 ```
 
 Change anything to your html or css file
+
 Now run the snapshots again:
 
 ```bash
