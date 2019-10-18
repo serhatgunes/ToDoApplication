@@ -1,7 +1,6 @@
 # to-do-application
-```diff
-- Step 1: Integrate Percy
-```
+
+`Step 1: Integrate Percy`
 
 If you haven’t already, sign up for a free Percy account, name your organization, and create your first project.
 ```bash
@@ -57,9 +56,7 @@ PercyScript.run(async (page, percySnapshot) => {
 });
 ```
 
-```diff
-- Step 2: Run Visual Tests
-```
+`Step 2: Run Visual Tests`
 
 To run your PercyScript locally, copy the PERCY_TOKEN environment variable from the new project screen or your project settings, then run:
 
@@ -68,9 +65,7 @@ $ export PERCY_TOKEN=aaabbbcccdddeee
 $ npx percy exec -- node snapshots.js
 ```
 
-```diff
-- Step 3: Review Visual Changes
-```
+`Step 3: Review Visual Changes`
 
 Change anything to your UI
 
@@ -80,6 +75,4 @@ Now run the snapshots again:
 $ npx percy exec -- node snapshots.js
 ```
 
-```diff
-+ You’ve done your first visual review!
-```
+**You’ve done your first visual review!**
