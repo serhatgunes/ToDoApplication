@@ -72,7 +72,7 @@ $ npx percy exec -- node snapshots.js
 - Step 3: Review Visual Changes
 ```
 
-Change anything to your html or css file
+Change anything to your UI
 
 Now run the snapshots again:
 
