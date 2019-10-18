@@ -9,7 +9,7 @@ $ git clone https://github.com/serhatgunes/ToDoApplication.git
 $ cd ToDoApplication/
 ```
 add package.json file to your project and insert : 
-```bash
+```json
 {
     "name": "to-do-application",
     "version": "1.0.0",
@@ -41,7 +41,7 @@ $ npm install -D @percy/script
 This will add @percy/script to your package.json file.
 
 Next, create a file named snapshots.js and add your first PercyScript:
-```bash
+```javascript
 // snapshots.js
 const PercyScript = require('@percy/script');
 
@@ -74,6 +74,7 @@ $ npx percy exec -- node snapshots.js
 
 Change anything to your html or css file
 Now run the snapshots again:
+
 ```bash
 $ npx percy exec -- node snapshots.js
 ```
