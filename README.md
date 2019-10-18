@@ -65,7 +65,7 @@ $ export PERCY_TOKEN=aaabbbcccdddeee
 $ npx percy exec -- node snapshots.js
 ```
 
-`Step 3: Review Visual Changes`
+` Step 3: Review Visual Changes `
 
 Change anything to your UI
 
