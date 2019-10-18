@@ -1,4 +1,4 @@
-## To Do Application For Percy Script
+## To Do Application For PercyScript
 
 ### Step 1: Integrate Percy
 
