@@ -10,4 +10,8 @@ PercyScript.run(async (page, percySnapshot) => {
   await page.type('.new-todo', 'A really important todo');
   await page.keyboard.press('Enter');
   await percySnapshot('TodoMVC with a new todo', { widths: [768, 992, 1200] });
+
+  await page.type('.new-todo', 'todo');
+  await page.keyboard.press('Enter');
+  await percySnapshot('TodoMVC', { widths: [768, 992, 1200] });
 });
