@@ -10,6 +10,9 @@ $ cd ToDoApplication/
 
 To install dependencies, compile and run the Todo app:
 
+Note : If you don't have Node.js on your computer you can get following link
+https://nodejs.org/en/download/
+
 ```bash
 $ npm install
 $ npm start
