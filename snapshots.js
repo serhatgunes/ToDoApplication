@@ -12,7 +12,7 @@ PercyScript.run(async (page, percySnapshot) => {
   await sleep(3000);
 
   // Enter a new to-do.
-  await page.type('.new-todo', 'A really important todo');
+  await page.type('.new-todo', 'Go shopping');
   await page.keyboard.press('Enter');
   await sleep(3000);
 
